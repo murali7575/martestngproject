@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="2">
+  <parameter name="lname" value="monik12345"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="lname" value="monik12345"/>
+    <classes>
+      <class name="org.test.Test2">
+        <methods>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.test.Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

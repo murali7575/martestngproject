@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T16:33:12Z" name="Suite" finished-at="2024-04-18T16:33:50Z" duration-ms="37408">
+    <groups>
+    </groups>
+    <test started-at="2024-04-18T16:33:12Z" name="Test" finished-at="2024-04-18T16:33:50Z" duration-ms="37408">
+      <class name="org.data.dataPro">
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:org.data.dataPro@1b75c2e3]" started-at="2024-04-18T22:03:12Z" name="test1" data-provider="loginData" finished-at="2024-04-18T22:03:20Z" duration-ms="8231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:org.data.dataPro@1b75c2e3]" started-at="2024-04-18T22:03:20Z" name="test1" data-provider="loginData" finished-at="2024-04-18T22:03:39Z" duration-ms="18669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monik12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monik12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String)[pri:0, instance:org.data.dataPro@1b75c2e3]" started-at="2024-04-18T22:03:39Z" name="test1" data-provider="loginData" finished-at="2024-04-18T22:03:50Z" duration-ms="10490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hellow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[heloow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- org.data.dataPro -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
